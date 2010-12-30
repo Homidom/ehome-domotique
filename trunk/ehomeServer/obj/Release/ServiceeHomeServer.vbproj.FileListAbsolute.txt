@@ -1,0 +1,15 @@
+d:\cyber-SPA\PE - Perso\PERSO\Perso\TemplateLibraryService\ServiceeHomeServer\bin\Release\ServiceeHomeServer.exe
+d:\cyber-SPA\PE - Perso\PERSO\Perso\TemplateLibraryService\ServiceeHomeServer\bin\Release\ServiceeHomeServer.pdb
+d:\cyber-SPA\PE - Perso\PERSO\Perso\TemplateLibraryService\ServiceeHomeServer\bin\Release\ServiceeHomeServer.xml
+d:\cyber-SPA\PE - Perso\PERSO\Perso\TemplateLibraryService\ServiceeHomeServer\bin\Release\eHomeApi.dll
+d:\cyber-SPA\PE - Perso\PERSO\Perso\TemplateLibraryService\ServiceeHomeServer\bin\Release\UsbLibrary.dll
+d:\cyber-SPA\PE - Perso\PERSO\Perso\TemplateLibraryService\ServiceeHomeServer\bin\Release\OneWireAPI.NET.dll
+d:\cyber-SPA\PE - Perso\PERSO\Perso\TemplateLibraryService\ServiceeHomeServer\bin\Release\UsbUirtManagedWrapper.dll
+d:\cyber-SPA\PE - Perso\PERSO\Perso\TemplateLibraryService\ServiceeHomeServer\bin\Release\eHomeApi.pdb
+d:\cyber-SPA\PE - Perso\PERSO\Perso\TemplateLibraryService\ServiceeHomeServer\bin\Release\eHomeApi.xml
+d:\cyber-SPA\PE - Perso\PERSO\Perso\TemplateLibraryService\ServiceeHomeServer\obj\Release\ResolveAssemblyReference.cache
+d:\cyber-SPA\PE - Perso\PERSO\Perso\TemplateLibraryService\ServiceeHomeServer\obj\Release\ServiceeHomeServer.Resources.resources
+d:\cyber-SPA\PE - Perso\PERSO\Perso\TemplateLibraryService\ServiceeHomeServer\obj\Release\ServiceeHomeServer.vbproj.GenerateResource.Cache
+d:\cyber-SPA\PE - Perso\PERSO\Perso\TemplateLibraryService\ServiceeHomeServer\obj\Release\ServiceeHomeServer.exe
+d:\cyber-SPA\PE - Perso\PERSO\Perso\TemplateLibraryService\ServiceeHomeServer\obj\Release\ServiceeHomeServer.xml
+d:\cyber-SPA\PE - Perso\PERSO\Perso\TemplateLibraryService\ServiceeHomeServer\obj\Release\ServiceeHomeServer.pdb
