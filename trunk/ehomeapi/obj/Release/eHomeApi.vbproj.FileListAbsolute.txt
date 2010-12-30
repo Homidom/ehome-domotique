@@ -1,0 +1,13 @@
+d:\cyber-SPA\PE - Perso\PERSO\Perso\TemplateLibraryService\eHomeApi\bin\Release\eHomeApi.dll.config
+d:\cyber-SPA\PE - Perso\PERSO\Perso\TemplateLibraryService\eHomeApi\bin\Release\eHomeApi.dll
+d:\cyber-SPA\PE - Perso\PERSO\Perso\TemplateLibraryService\eHomeApi\bin\Release\eHomeApi.pdb
+d:\cyber-SPA\PE - Perso\PERSO\Perso\TemplateLibraryService\eHomeApi\bin\Release\eHomeApi.xml
+d:\cyber-SPA\PE - Perso\PERSO\Perso\TemplateLibraryService\eHomeApi\bin\Release\OneWireAPI.NET.dll
+d:\cyber-SPA\PE - Perso\PERSO\Perso\TemplateLibraryService\eHomeApi\bin\Release\UsbLibrary.dll
+d:\cyber-SPA\PE - Perso\PERSO\Perso\TemplateLibraryService\eHomeApi\bin\Release\UsbUirtManagedWrapper.dll
+d:\cyber-SPA\PE - Perso\PERSO\Perso\TemplateLibraryService\eHomeApi\obj\Release\ResolveAssemblyReference.cache
+d:\cyber-SPA\PE - Perso\PERSO\Perso\TemplateLibraryService\eHomeApi\obj\Release\eHomeApi.Resources.resources
+d:\cyber-SPA\PE - Perso\PERSO\Perso\TemplateLibraryService\eHomeApi\obj\Release\eHomeApi.vbproj.GenerateResource.Cache
+d:\cyber-SPA\PE - Perso\PERSO\Perso\TemplateLibraryService\eHomeApi\obj\Release\eHomeApi.dll
+d:\cyber-SPA\PE - Perso\PERSO\Perso\TemplateLibraryService\eHomeApi\obj\Release\eHomeApi.xml
+d:\cyber-SPA\PE - Perso\PERSO\Perso\TemplateLibraryService\eHomeApi\obj\Release\eHomeApi.pdb
