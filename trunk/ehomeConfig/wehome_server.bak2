@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<wehome>
+  <server>
+    <nameconfig />
+    <ipnetwork>localhost</ipnetwork>
+    <portnetworktcp>8888</portnetworktcp>
+    <portnetworkudp>8888</portnetworkudp>
+    <longitude>2,4326</longitude>
+    <latitude>50,9686</latitude>
+  </server>
+  <service>
+    <id>usbuirt</id>
+    <name>usbuirt</name>
+    <protocol>IR</protocol>
+    <port>IR</port>
+    <startauto>True</startauto>
+    <parametres />
+  </service>
+  <devices>
+    <device>
+      <typeclass>lightingdimmer</typeclass>
+      <id>882408a8-205f-406f-b0af-9dc4c523c0d5</id>
+      <name>Soleil</name>
+      <adresse>1</adresse>
+      <enable>True</enable>
+      <driver>usbuirt</driver>
+      <image />
+    </device>
+    <device>
+      <typeclass>tv</typeclass>
+      <id>3599f8d3-eed9-4585-a344-be699eaba4f1</id>
+      <name>TV</name>
+      <adresse />
+      <enable>False</enable>
+      <driver>usbuirt</driver>
+      <image />
+      <commands>
+        <command key="Power" data="F41038A415656200B0A0080AA80AAA2AA08000000000000000000" repeat="1" />
+        <command key="ChannelUp" data="0" repeat="0" />
+        <command key="ChannelDown" data="0" repeat="0" />
+        <command key="VolumeUp" data="0" repeat="0" />
+        <command key="VolumeDown" data="0" repeat="0" />
+        <command key="Mute" data="0" repeat="0" />
+        <command key="Source" data="0" repeat="0" />
+        <command key="0" data="0" repeat="0" />
+        <command key="1" data="0" repeat="0" />
+        <command key="2" data="0" repeat="0" />
+        <command key="3" data="0" repeat="0" />
+        <command key="4" data="0" repeat="0" />
+        <command key="5" data="0" repeat="0" />
+        <command key="6" data="0" repeat="0" />
+        <command key="7" data="0" repeat="0" />
+        <command key="8" data="0" repeat="0" />
+        <command key="9" data="0" repeat="0" />
+      </commands>
+    </device>
+    <device>
+      <typeclass>meteo</typeclass>
+      <id>57e7ddbb-20ee-466d-a041-2c8ea7675614</id>
+      <name>Bergues</name>
+      <adresse>579365</adresse>
+      <enable>True</enable>
+      <driver />
+      <image />
+    </device>
+    <device>
+      <typeclass>audiozone</typeclass>
+      <id>7686dcae-8a2b-4c11-b071-76db2fdaa7df</id>
+      <name>SdB</name>
+      <adresse>C:\</adresse>
+      <enable>True</enable>
+      <driver />
+      <image />
+    </device>
+  </devices>
+  <zones>
+    <zone>
+      <id>0</id>
+      <name>Nom</name>
+      <deviceid>882408a8-205f-406f-b0af-9dc4c523c0d5</deviceid>
+    </zone>
+  </zones>
+  <schedules>
+    <schedule>
+      <id>mID</id>
+      <name>mName</name>
+      <enable>True</enable>
+      <triggertype>0</triggertype>
+      <recurrence>0</recurrence>
+      <startdatetime>10/10/2010 15:30:00</startdatetime>
+      <jour>0000000</jour>
+      <asend>False</asend>
+      <enddatetime>10/10/2010 15:30:00</enddatetime>
+      <sunrisebefore>False</sunrisebefore>
+      <sunrisebeforetime>00:00:00</sunrisebeforetime>
+      <sunsetbefore>False</sunsetbefore>
+      <sunsetbeforetime>00:00:00</sunsetbeforetime>
+      <lastschedule>01/01/2010</lastschedule>
+      <scripts>
+        <scriptid>0</scriptid>
+        <scriptid>0</scriptid>
+      </scripts>
+    </schedule>
+  </schedules>
+  <triggers>
+    <trigger>
+      <id>3b2da5ec-242c-44df-8e67-9ce1d7c6ce9d</id>
+      <name>trigger</name>
+      <enable>True</enable>
+      <deviceid>57e7ddbb-20ee-466d-a041-2c8ea7675614</deviceid>
+      <status>TomorrowImage</status>
+      <condition>=</condition>
+      <value>5</value>
+      <scripts>
+        <scriptid>96ecc3a2-2d2f-4873-8d87-f8a173209b0c</scriptid>
+      </scripts>
+    </trigger>
+  </triggers>
+  <scripts>
+    <script>
+      <id>96ecc3a2-2d2f-4873-8d87-f8a173209b0c</id>
+      <name>script</name>
+      <enable>True</enable>
+      <action>
+        <typeaction>DEVICE</typeaction>
+        <deviceid>3599f8d3-eed9-4585-a344-be699eaba4f1</deviceid>
+        <function>ChannelUp</function>
+        <value />
+      </action>
+      <action>
+        <typeaction>PAUSE</typeaction>
+        <heure>0</heure>
+        <minute>1</minute>
+        <seconde>5</seconde>
+        <mseconde>100</mseconde>
+      </action>
+    </script>
+  </scripts>
+</wehome>

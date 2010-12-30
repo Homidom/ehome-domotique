@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wehome>
+	<config>
+		<element name="debug" valuetype="boolean" value="True" />
+	</config>
+	<connect>
+		<element serveur="http://sebbergues2.no-ip.org:81" login="sebastien" password="clarisse1705" />
+	</connect>
+	<module>
+		<element adresse="B1" type="0" icon="" HasValue="1" HasString="1" />
+		<element adresse="B2" type="0" icon="" HasValue="1" HasString="1" />
+		<element adresse="C1" type="0" icon="" HasValue="1" HasString="1" />
+		<element adresse="F2" type="0" icon="F:\iphoney_icons\125\125_shades.png" HasValue="1" HasString="1" />
+		<element adresse="F4" type="0" icon="F:\iphoney_icons\125\125_shades.png" HasValue="1" HasString="1" />
+		<element adresse="F3" type="0" icon="F:\iphoney_icons\125\125_shades.png" HasValue="1" HasString="1" />
+		<element adresse="M16" type="3" icon="" HasValue="1" HasString="1" />
+		<element adresse="C2" type="2" icon="" HasValue="1" HasString="1" />
+		<element adresse="C6" type="0" icon="" HasValue="1" HasString="1" />
+		<element adresse="C7" type="0" icon="" HasValue="1" HasString="1" />
+	</module>
+	<scene>
+		<element nom="Ouvrir les volets" Script="Ouvrir les volets.vb" Fonction="" command="" icon="" />
+		<element nom="Fermer les volets" Script="Fermer les volets.vb" Fonction="" command="" icon="" />
+	</scene>
+	<meteo>
+		<element nom="Bergues" Code="579365" />
+		<element nom="Dunkerque" Code="589284" />
+		<element nom="Calais" Code="582681" />
+		<element nom="Cormes" Code="587016" />
+		<element nom="Paris" Code="615702" />
+		<element nom="Lille" Code="608105" />
+	</meteo>
+	<musique>
+		<folder>
+			<element path="c:\musique" />
+		</folder>
+		<extension>
+			<element ext="wav" />
+			<element ext="mp3" />
+			<element ext="wma" />
+		</extension>
+	</musique>
+</wehome>
