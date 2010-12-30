@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<wehome>
+  <server>
+    <nameconfig />
+    <ipnetwork>localhost</ipnetwork>
+    <portnetworktcp>8888</portnetworktcp>
+    <portnetworkudp>8888</portnetworkudp>
+    <longitude>2,4326</longitude>
+    <latitude>50,9686</latitude>
+    <heurecorrectionlever>0</heurecorrectionlever>
+    <heurecorrectioncoucher>0</heurecorrectioncoucher>
+    <logfile>c:\ehome\log\Servicehome.log</logfile>
+    <logmaxsize>5120000</logmaxsize>
+    <histmaxday>365</histmaxday>
+  </server>
+  <service>
+    <id>virtuel</id>
+    <name>virtuel</name>
+    <protocol>N/A</protocol>
+    <port>N/A</port>
+    <startauto>True</startauto>
+    <parametres />
+  </service>
+  <service>
+    <id>usbuirt</id>
+    <name>usbuirt</name>
+    <protocol>IR</protocol>
+    <port>IR</port>
+    <startauto>True</startauto>
+    <parametres />
+  </service>
+  <service>
+    <id>rfid</id>
+    <name>rfid</name>
+    <protocol>rfid</protocol>
+    <port>rfid</port>
+    <startauto>False</startauto>
+    <parametres />
+  </service>
+  <service>
+    <id>1wire</id>
+    <name>1wire</name>
+    <protocol>1wire</protocol>
+    <port>1wire</port>
+    <startauto>False</startauto>
+    <parametres />
+  </service>
+  <service>
+    <id>x10</id>
+    <name>x10</name>
+    <protocol>X10</protocol>
+    <port>X10</port>
+    <startauto>False</startauto>
+    <parametres />
+  </service>
+  <devices>
+    <device>
+      <typeclass>lightingdimmer</typeclass>
+      <id>882408a8-205f-406f-b0af-9dc4c523c0d5</id>
+      <name>Soleil</name>
+      <adresse>1</adresse>
+      <enable>True</enable>
+      <driver>usbuirt</driver>
+      <image>C:\ehome\images\01.png</image>
+    </device>
+    <device>
+      <typeclass>tv</typeclass>
+      <id>3599f8d3-eed9-4585-a344-be699eaba4f1</id>
+      <name>TV</name>
+      <adresse />
+      <enable>False</enable>
+      <driver>usbuirt</driver>
+      <image />
+      <commands>
+        <command key="Power" data="F41038A415656200B0A0080AA80AAA2AA08000000000000000000" repeat="1" />
+        <command key="ChannelUp" data="0" repeat="0" />
+        <command key="ChannelDown" data="0" repeat="0" />
+        <command key="VolumeUp" data="0" repeat="0" />
+        <command key="VolumeDown" data="0" repeat="0" />
+        <command key="Mute" data="0" repeat="0" />
+        <command key="Source" data="0" repeat="0" />
+        <command key="0" data="0" repeat="0" />
+        <command key="1" data="0" repeat="0" />
+        <command key="2" data="0" repeat="0" />
+        <command key="3" data="0" repeat="0" />
+        <command key="4" data="0" repeat="0" />
+        <command key="5" data="0" repeat="0" />
+        <command key="6" data="0" repeat="0" />
+        <command key="7" data="0" repeat="0" />
+        <command key="8" data="0" repeat="0" />
+        <command key="9" data="0" repeat="0" />
+      </commands>
+    </device>
+    <device>
+      <typeclass>meteo</typeclass>
+      <id>57e7ddbb-20ee-466d-a041-2c8ea7675614</id>
+      <name>Bergues</name>
+      <adresse>dunkerque</adresse>
+      <enable>True</enable>
+      <driver>virtuel</driver>
+      <image />
+    </device>
+    <device>
+      <typeclass>audiozone</typeclass>
+      <id>7686dcae-8a2b-4c11-b071-76db2fdaa7df</id>
+      <name>SdB</name>
+      <adresse>C:\</adresse>
+      <enable>True</enable>
+      <driver>virtuel</driver>
+      <image />
+    </device>
+    <device>
+      <typeclass>temperature</typeclass>
+      <id>b8af8a29-402f-4186-9c09-5d1676c669c7</id>
+      <name>capteur 1</name>
+      <adresse>E5000001C7C01928</adresse>
+      <enable>True</enable>
+      <driver>1wire</driver>
+      <image />
+    </device>
+    <device>
+      <typeclass>temperature</typeclass>
+      <id>d50e3200-6514-4ada-b332-aea091e005dc</id>
+      <name>capteur 2</name>
+      <adresse>B2000001C7A9AF28</adresse>
+      <enable>True</enable>
+      <driver>1wire</driver>
+      <image />
+    </device>
+    <device>
+      <typeclass>contact</typeclass>
+      <id>1d673b54-c14c-472d-b254-0039cff2aa01</id>
+      <name>lapin</name>
+      <adresse>000008D00218C10916ACC4</adresse>
+      <enable>True</enable>
+      <driver>rfid</driver>
+      <image />
+    </device>
+    <device>
+      <typeclass>web</typeclass>
+      <id>9ad0183d-79f6-4ff4-bbce-670e75b620bf</id>
+      <name>Google</name>
+      <adresse>www.google.fr</adresse>
+      <enable>True</enable>
+      <driver>virtuel</driver>
+      <image />
+    </device>
+    <device>
+      <typeclass>meteo</typeclass>
+      <id>3d10745e-bc34-4e9c-8e5e-c57c4411dfe1</id>
+      <name>Calais</name>
+      <adresse>calais</adresse>
+      <enable>True</enable>
+      <driver>virtuel</driver>
+      <image />
+    </device>
+    <device>
+      <typeclass>meteo</typeclass>
+      <id>f4b0da33-13f1-4931-bdae-b73d1a943cd8</id>
+      <name>La ferté Bernard</name>
+      <adresse>la ferté-Bernard</adresse>
+      <enable>True</enable>
+      <driver>virtuel</driver>
+      <image />
+    </device>
+  </devices>
+  <zones>
+    <zone>
+      <id>0</id>
+      <name>Nom</name>
+      <image>d:\cyber-SPA\PE - Perso\logo_gxpmanager.jpg</image>
+      <deviceid>882408a8-205f-406f-b0af-9dc4c523c0d5</deviceid>
+      <deviceid>3599f8d3-eed9-4585-a344-be699eaba4f1</deviceid>
+    </zone>
+  </zones>
+  <histos>
+    <histo>
+      <id>f3f6f5c4-8463-4f39-a890-1cdfd9c22166</id>
+      <enable>True</enable>
+      <deviceid>57e7ddbb-20ee-466d-a041-2c8ea7675614</deviceid>
+      <propertydevice>TemperatureActuel</propertydevice>
+    </histo>
+    <histo>
+      <id>58f37c6b-f917-40dd-9395-8a7581334bf4</id>
+      <enable>True</enable>
+      <deviceid>f4b0da33-13f1-4931-bdae-b73d1a943cd8</deviceid>
+      <propertydevice>TemperatureActuel</propertydevice>
+    </histo>
+  </histos>
+  <variables />
+  <schedules>
+    <schedule>
+      <id>mID</id>
+      <name>Schedule 15h30</name>
+      <enable>True</enable>
+      <triggertype>0</triggertype>
+      <recurrence>0</recurrence>
+      <startdatetime>10/10/2010 15:30:00</startdatetime>
+      <jour>0000000</jour>
+      <asend>False</asend>
+      <enddatetime>10/10/2010 15:30:00</enddatetime>
+      <sunrisebefore>True</sunrisebefore>
+      <sunrisebeforetime>16/12/2010 16:37:14</sunrisebeforetime>
+      <sunsetbefore>True</sunsetbefore>
+      <sunsetbeforetime>16/12/2010 16:37:14</sunsetbeforetime>
+      <lastschedule>01/01/2010</lastschedule>
+      <scripts />
+    </schedule>
+  </schedules>
+  <triggers>
+    <trigger>
+      <id>3b2da5ec-242c-44df-8e67-9ce1d7c6ce9d</id>
+      <name>trigger</name>
+      <enable>True</enable>
+      <deviceid>57e7ddbb-20ee-466d-a041-2c8ea7675614</deviceid>
+      <status>ConditionJ1</status>
+      <condition>=</condition>
+      <value>Nuageux</value>
+      <scripts>
+        <scriptid>96ecc3a2-2d2f-4873-8d87-f8a173209b0c</scriptid>
+      </scripts>
+    </trigger>
+  </triggers>
+  <scripts>
+    <script>
+      <id>96ecc3a2-2d2f-4873-8d87-f8a173209b0c</id>
+      <name>script</name>
+      <enable>True</enable>
+      <action>
+        <typeaction>DEVICE</typeaction>
+        <deviceid>3599f8d3-eed9-4585-a344-be699eaba4f1</deviceid>
+        <function>ChannelUp</function>
+        <value />
+      </action>
+      <action>
+        <typeaction>PAUSE</typeaction>
+        <heure>0</heure>
+        <minute>0</minute>
+        <seconde>5</seconde>
+        <mseconde>100</mseconde>
+      </action>
+      <action>
+        <typeaction>PARLER</typeaction>
+        <parler>Bonjour il est {time} et {bergues.temperature}</parler>
+      </action>
+    </script>
+  </scripts>
+</wehome>

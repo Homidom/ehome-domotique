@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wehome>
+	<server>
+		<nameconfig>test</nameconfig>
+		<ipnetwork>localhost</ipnetwork>
+		<portnetworktcp>8888</portnetworktcp>
+		<portnetworkudp>8888</portnetworkudp>
+		<longitude>1,2</longitude>
+		<latitude>1,3</latitude>
+	</server>
+	<service>
+		<id>usbuirt</id>
+		<name>usbuirt</name>
+		<protocol>IR</protocol>
+		<port>Nothing</port>
+		<startauto>1</startauto>
+		<parametres> </parametres>
+	</service>
+	<devices>
+	</devices>
+</wehome>

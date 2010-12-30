@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wehome>
+<module>
+<TypeClass>Autre</TypeClass>
+<name>Soleil</name>
+</module>
+<proprietes>
+	<propriete name="heure_leve" ops="EQ|NE|GT|GE|LT|LE" type="TEXT" values="" devchg="1" />
+	<propriete name="heure_couche" ops="EQ|NE|GT|GE|LT|LE" type="TEXT" values="" devchg="1" />
+</proprietes>
+<commands>
+
+</commands>
+</wehome>
